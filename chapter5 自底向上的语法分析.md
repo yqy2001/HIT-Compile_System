@@ -125,3 +125,11 @@ LR(0)分析能力较差，很多上下文无关文法不能用LR(0)方法进行�
 
 1、后继项目继承原项目的展望符；
 2、$[A→\alpha B.\beta,a]$扩展出$[B→.\gamma,b]$，$b\in FIRST(\beta a)$
+
+1、$I_0={\rm CLOSURE(\{S^{'}→.S\})}$，构造$C=\{I_0,I_1,\dots,I_n\}$，即文法G'的LR(1)项目集规范族；
+2、对于C中每一个项目集：
+
+* 若$[A→\alpha. a\beta,b]\in I_k$且$a$是终结符且GO(I~k~, $a$)=I~j~，那么置action[k, a] := sj;
+* if $GO(I_k, B)=I_j$ 且B是非终结符，那么置goto[k, B] := j;
+* if $[A→\alpha., a]\in I_k$，且此为第j个产生式，则置action[k, a] := rj;
+* 若$[S'→S.,\#]\in I_k$，那么action[k, #] := acc;
