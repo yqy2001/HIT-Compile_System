@@ -38,7 +38,7 @@ SDT是在产生式右部嵌入了程序片段的CFG，这些程序片段称为**
 
 SDD与SDT：
 
-![image-20210504154659882](https://i.loli.net/2021/05/04/2u3nHlfv9OigEYN.png)
+<img src="https://i.loli.net/2021/05/04/2u3nHlfv9OigEYN.png" alt="image-20210504154659882" style="zoom:40%;" />
 
 ## 6.2 语法制导定义SDD
 

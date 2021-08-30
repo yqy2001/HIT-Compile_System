@@ -156,3 +156,9 @@ backpatch(p, i): 回填，将i作为目标标号填入到p所指列表中的各�
 <img src="chapter7 语义分析与中间代码生成.assets/image-20210523093335522.png" alt="image-20210523093335522" style="zoom:50%;" /><img src="chapter7 语义分析与中间代码生成.assets/image-20210523093417683.png" alt="image-20210523093417683" style="zoom:50%;" /><img src="chapter7 语义分析与中间代码生成.assets/image-20210523093448207.png" alt="image-20210523093448207" style="zoom:50%;" />
 
 <img src="chapter7 语义分析与中间代码生成.assets/image-20210523093602168.png" alt="image-20210523093602168" style="zoom:50%;" />
+
+## 控制流语句的回填
+
+## switch语句的翻译
+
+## 过程调用语句的翻译
