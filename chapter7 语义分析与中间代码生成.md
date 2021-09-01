@@ -153,11 +153,11 @@ makelist(i): 创建一个只包含i的列表，i是一条跳转指令的标号
 merge(p1, p2): 合并p1和p2
 backpatch(p, i): 回填，将i作为目标标号填入到p所指列表中的各属性中
 
-<img src="chapter7 语义分析与中间代码生成.assets/image-20210523093335522.png" alt="image-20210523093335522" style="zoom:50%;" /><img src="chapter7 语义分析与中间代码生成.assets/image-20210523093417683.png" alt="image-20210523093417683" style="zoom:50%;" /><img src="chapter7 语义分析与中间代码生成.assets/image-20210523093448207.png" alt="image-20210523093448207" style="zoom:50%;" />
-
-<img src="chapter7 语义分析与中间代码生成.assets/image-20210523093602168.png" alt="image-20210523093602168" style="zoom:50%;" />
+<img src="chapter7 语义分析与中间代码生成.assets/image-20210523093335522.png" alt="image-20210523093335522" style="zoom:50%;" /><img src="chapter7 语义分析与中间代码生成.assets/image-20210523093417683.png" alt="image-20210523093417683" style="zoom:50%;" /><img src="chapter7 语义分析与中间代码生成.assets/image-20210523093448207.png" alt="image-20210523093448207" style="zoom:50%;" /><img src="chapter7 语义分析与中间代码生成.assets/image-20210523093602168.png" alt="image-20210523093602168" style="zoom:50%;" />
 
 ## 控制流语句的回填
+
+注意，if B then M1 S1 N else M2 S2里的N有一句goto
 
 ## switch语句的翻译
 
