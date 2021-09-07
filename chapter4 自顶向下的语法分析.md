@@ -125,7 +125,7 @@ ${\rm FIRST}(\alpha)$被定义为可以从$\alpha$推导得到的串的首终结
 
 计算出FIRST和FOLLOW集后，即可计算各产生式的SELECT集。若左部相同的产生式的SELECT集互不相交，则此文法是LL(1)文法，可以对其构造**预测分析表**：
 
-<img src="chapter4 自顶向下的语法分析.assets/image-20210519090600107.png" alt="image-20210519090600107" style="zoom: 33%;" />
+<img src="chapter4 自顶向下的语法分析.assets/image-20210519090600107.png" alt="image-20210519090600107" style="zoom: 50%;" />
 
 根据分析表是否有冲突，即可判断文法是不是LL(1)文法。
 

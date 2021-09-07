@@ -67,7 +67,7 @@ NFA比DFA更直观，DFA比NFA更易于实现
 
 正则表达式到状态转换图的转换：
 
-<img src="E:\哈工大计算机课程资料\编译系统\HIT-Compile_System\chapter3 词法分析.assets\image-20210517145711178.png" alt="image-20210517145711178" style="zoom:50%;" />
+<img src="chapter3 词法分析.assets\image-20210517145711178.png" alt="image-20210517145711178" style="zoom:50%;" />
 
 ## 3.3 单词的识别
 
@@ -75,19 +75,19 @@ NFA比DFA更直观，DFA比NFA更易于实现
 
 八进制数：0[0-7]+
 
-<img src="E:\哈工大计算机课程资料\编译系统\HIT-Compile_System\chapter3 词法分析.assets\image-20210517150514516.png" alt="image-20210517150514516" style="zoom:50%;" />
+<img src="chapter3 词法分析.assets\image-20210517150514516.png" alt="image-20210517150514516" style="zoom:50%;" />
 
 十进制数：\[1-9][0-9]\*|0
 
-<img src="E:\哈工大计算机课程资料\编译系统\HIT-Compile_System\chapter3 词法分析.assets\image-20210517150527349.png" alt="image-20210517150527349" style="zoom:50%;" />
+<img src="chapter3 词法分析.assets\image-20210517150527349.png" alt="image-20210517150527349" style="zoom:50%;" />
 
 十六进制数：0x[0-9a-fA-F]+
 
-<img src="E:\哈工大计算机课程资料\编译系统\HIT-Compile_System\chapter3 词法分析.assets\image-20210517150535286.png" alt="image-20210517150535286" style="zoom:50%;" />
+<img src="chapter3 词法分析.assets\image-20210517150535286.png" alt="image-20210517150535286" style="zoom:50%;" />
 
 总体：
 
-<img src="E:\哈工大计算机课程资料\编译系统\HIT-Compile_System\chapter3 词法分析.assets\image-20210517150622175.png" alt="image-20210517150622175" style="zoom:50%;" />
+<img src="chapter3 词法分析.assets\image-20210517150622175.png" alt="image-20210517150622175" style="zoom:50%;" />
 
 ## 本章小结
 
